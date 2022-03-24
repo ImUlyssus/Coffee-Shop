@@ -1,0 +1,24 @@
+{
+  "name": "confusion-keeper",
+  "version": "1.0.0",
+  "description": "\"Mini Project\"",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ImUlyssus/Coffee-Shop.git"
+  },
+  "author": "\"Ulyssus\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ImUlyssus/Coffee-Shop/issues"
+  },
+  "homepage": "https://github.com/ImUlyssus/Coffee-Shop#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
