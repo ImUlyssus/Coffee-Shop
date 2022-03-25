@@ -1,7 +1,13 @@
 
 
 /* Navbar Starts */
-
+.active a{
+    width: 100px;
+    border: 1px solid black;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: #8D9359;
+}
 .nav-item{
     width: 100px;
     border: 1px solid black;
@@ -9,7 +15,6 @@
     border-radius: 10px;
     background-color: #3B1C0B;
 }
-
 /* Navbar Ends */
 
 /* Header Starts */
@@ -51,3 +56,17 @@
 }
 
 /* Menu Ends */
+
+/* Order Starts */
+#checkboxes{
+    display:none;
+}
+/* Order Ends */
+
+/* Footer Starts */
+.footer{
+    background-color: #E2AA7E;
+}
+.footer-text{
+    color: #6F0000;
+}
