@@ -1,12 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    width: 100%;
-    height: auto;
-    overflow: hidden;
-}
+
 
 /* Navbar Starts */
 
@@ -21,6 +13,10 @@ body{
 /* Navbar Ends */
 
 /* Header Starts */
+.banner-img {
+    width: 100%;
+    display: block;
+}
 .jumbotron{
     margin: 0 auto;
     color: dark;
@@ -34,4 +30,24 @@ body{
     text-align: center;
     font-weight: bold;
 }
+@media only screen and (min-width: 768px){
+    .menu-item h5{
+        float: left;
+        margin: 10% 20% 0 20%;
+    }
+    .menu-item p{
+        float: left;
+        margin: 0 20% 10% 20%;
+    }
+    /* .menu-img {
+        float: right;
+        margin: 3% 10% 0% 0%;
+    } */
+}
+
+.menu-header p img{
+    max-width: 480px;
+    height: auto;
+}
+
 /* Menu Ends */
