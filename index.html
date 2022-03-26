@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mini Milk Tea</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
 </head>
 <body>
@@ -18,10 +20,10 @@
                 </button>
                 <div class="collapse navbar-collapse" id="Navbar">
                     <ul class="navbar-nav">
-                        <li class="nav-item active"><a class="nav-link text-center text-white" href="#">Home</a></li>
-                        <li class="nav-item"><a class="nav-link text-center text-white" href="menu.html">Menu</a></li>
-                        <li class="nav-item"><a class="nav-link text-center text-white" href="about.html">About</a></li>
-                        <li class="nav-item"><a class="nav-link text-center text-white" href="review.html">Review</a></li>
+                        <li class="nav-item active"><a class="nav-link text-center text-white" href="#"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                        <li class="nav-item"><a class="nav-link text-center text-white" href="menu.html"><i class="fa fa-duotone fa-bars fa-lg"></i> Menu</a></li>
+                        <li class="nav-item"><a class="nav-link text-center text-white" href="about.html"><span class="fa fa-address-card fa-lg"></span> About</a></li>
+                        <li class="nav-item"><a class="nav-link text-center text-white" href="review.html"><span class="fa fa-search fa-lg"></span> Review</a></li>
                     </ul>
                 </div>
             </div>
@@ -31,14 +33,14 @@
     <!-- Menu Start -->
     <div class="container mt-2 menu-header">
         <div class="row menu">
-            <h2>Our Menu</h2>
+            <h2>Popular Items</h2>
             <hr>
         </div>
         <div class="row">
             <div class="col-md-6 d-none d-md-block">
                 <div class="row">
                     <div class="col-8 offset-2 mt-4">
-                        <h5>Honey Thai Tea</h5>
+                        <h5>Honey Thai Tea </h5>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugiat aliquam voluptas ut incidunt temporibus, accusamus voluptatem quasi, nesciunt fugit enim. Obcaecati quas animi modi ipsam vel dolorem in recusandae.</p>
                     </div>
                 </div>
@@ -201,18 +203,6 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
-        var expanded = false;
-        function showCheckBoxes(){
-            var checkBoxes = document.getElementById("checkboxes");
-            if(!expanded){
-                checkBoxes.style.display = "block";
-                expanded = true;
-            }else{
-                checkBoxes.style.display = "none";
-                expanded = false;
-            }
-        }
-    </script>
+    <script src="js/script.js"></script>
 </body>
 </html>

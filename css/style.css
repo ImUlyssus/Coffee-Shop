@@ -1,19 +1,20 @@
 
 
 /* Navbar Starts */
-.active a{
+.nav-item a{
     width: 100px;
-    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #3B1C0B;
+    margin-left: 30px;
+}
+.active a{
+    border: none;
+    width: 100px;
     border-radius: 10px;
     background-color: #AB7B51;
 }
-.nav-item{
-    width: 100px;
-    border: 1px solid black;
-    margin-right: 20px;
-    border-radius: 10px;
-    background-color: #3B1C0B;
-}
+
 /* Navbar Ends */
 
 /* Header Starts */
@@ -83,8 +84,59 @@
 .title-content p{
     margin: 0 0 0 5%;
 }
-
-/* Menu HTML Ends */
 .jumbotron{
     background-color:#F1D4C2;
 }
+/* Menu HTML Ends */
+
+/* About HTML */
+#old-restaurant{
+    max-width:300px;
+    height: auto;
+    display: inline-block;
+    padding: 25px 0 20px 0;
+}
+/* @media only screen and (max-width: 768px){
+    #oldRestaurant{
+        max-width:350px;
+        height: auto;
+        display: inline-block;
+        padding: 60px 0 20px 0;
+    }
+} */
+.aboutusHeader{
+    background-color: #74D4BB;
+}
+@media only screen and (max-width: 992px) {
+    .chef img{
+      height: auto;
+      width: 85%;
+      display: inline-block;
+    }
+    .chef p{
+      text-align: center;
+    }
+  }
+@media only screen and (min-width: 992px) {
+    .chef img{
+      height: auto;
+      width: 85%;
+      display: inline-block;
+    }
+    .chef p{
+      text-align: center;
+    }
+  }
+  @media only screen and (max-width: 1199px) {
+    .header-img p{
+      text-align: center;
+  
+    }
+  }
+  .map{
+    max-width: 300px;
+    max-height: 550px;
+    display: inline-block;
+    border: 1px solid red;
+  }
+/* About HTML Ends */
